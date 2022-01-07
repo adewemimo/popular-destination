@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100vw
+}
+
+.destination {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  &--left {
+    margin-right: 10px;
+    width: 30%;
+    align-items: flex-start;
+  }
+  &--right {
+    margin-left: 10px;
+    width: 30%;
+    align-items: flex-end;
+  }
+}
